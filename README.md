@@ -19,7 +19,7 @@
 </html>
 
 
-
+(challenge 2....code not working)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,3 +101,21 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+
+
+
+( javascript)
+//waits until page is ready
+$(document).ready(function() {
+ 
+
+
+
+//slides down paragrph directly under image when img is clicked 
+$("img").click(function(){
+	$(this).next().children('p').slideDown();	 
+});
+
+
+
+}); 
