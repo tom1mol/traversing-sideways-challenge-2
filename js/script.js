@@ -10,5 +10,8 @@ $("img").click(function(){
 });
 
 
-
+$(".card").click(function(){
+    $(this).toggleClass("highlight");
+})
 }); 
+
